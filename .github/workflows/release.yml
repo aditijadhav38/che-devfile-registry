@@ -12,7 +12,7 @@ name: Release Che Devfile Registry
 on:
   push:
     branches: 
-      - master
+      - buildx-GA
 
 jobs:
   release-build-publish:
