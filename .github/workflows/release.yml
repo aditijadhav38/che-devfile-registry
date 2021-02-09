@@ -34,7 +34,6 @@ jobs:
           echo ::set-output name=image::${IMAGE}
           PLATFORMS=$(cat PLATFORMS)
           echo ::set-output name=platforms::${PLATFORMS}
-
       - name: Login to Quay.io
         uses: azure/docker-login@v1
         with:
