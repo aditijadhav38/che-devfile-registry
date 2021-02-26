@@ -17,7 +17,7 @@ on:
         required: true
   push:
     branches: 
-      - 'release'
+      - 'bivas-pr-check'
     paths:
       - 'VERSION'
 
