@@ -10,9 +10,9 @@
 name: PR Checks
 
 on:
-  pull_request:
+  push:
     branches: 
-      - master
+      - bivas-pr-check
 
 jobs:
   shellcheck:
